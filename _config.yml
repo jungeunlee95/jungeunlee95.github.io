@@ -1,0 +1,67 @@
+# Site Info
+title: 'JungEun~의 개발공부'
+tagline: 'JungEun~의 개발공부'
+description: 'JungEun~의 개발공부'
+baseurl: ""
+url: https://jungeunlee95.github.io
+logo: '/public/logo.png'
+
+# Site configurations
+gems:
+  - jekyll-paginate
+markdown: kramdown
+kramdown:
+  input: GFM
+excerpt_separator: "<!-- more -->"
+sass:
+  style: compressed
+  sass_dir: _scss
+paginate: 5
+paginate_path: '/blog/page:num'
+permalink: pretty
+
+version: 1.0.0
+
+# About/contact
+author:
+  name: LEE JUNGEUN
+  description: JUNGEUN(LEE JUNGEUN)
+  contact:
+    # linkedin:  https://www.linkedin.com/in/lizhihao
+    github:    https://github.com/jungeunlee95
+    # facebook:  https://www.facebook.com/jungeunlee95
+    # twitter:   https://twitter.com/Li_Zhihao
+    # weibo:     http://weibo.com/41173780
+    email:    mailto:leeap1004@gmail.com
+
+# Navigation (2nd level links supported)
+nav:
+  Home:
+    - '/blog/'
+  Categories:
+    - '/'
+    # - { Categories All: '/blog/categories/' }
+    - { Django: '/blog/categories/#django' }
+    - { Linux: '/blog/categories/#linux' }
+    - { Python: '/blog/categories/#python' }
+    - { etc: '/blog/categories/#etc' }
+    # - { Tags: '/blog/tags/' }
+  About:
+    - '/about/' 
+  Search:
+    - '/search/'
+
+# Where are tags and categories displayed
+tag_page: '/blog/tags/'
+category_page: '/blog/categories/'
+
+
+# Puglins
+mathjax: true # whether support mathjax
+google_analytics_token: 'UA-92094009-1' # leave blank if you don't want google analytics
+disqus_short_name: 'jungeunlee95' # leave blank if you don't want disqus
+
+
+# Use the following plug-ins
+gems:
+  - jekyll-paginate

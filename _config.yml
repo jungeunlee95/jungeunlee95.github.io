@@ -1,7 +1,7 @@
 # Site Info
-title: 'JungEun~의 개발공부'
-tagline: 'JungEun~의 개발공부'
-description: 'JungEun~의 개발공부'
+title: '콩정의 개발 정리 블로그'
+tagline: '콩정의 개발 정리 블로그'
+description: '콩정의 개발 정리 블로그'
 baseurl: ""
 url: https://jungeunlee95.github.io
 logo: '/public/logo.png'

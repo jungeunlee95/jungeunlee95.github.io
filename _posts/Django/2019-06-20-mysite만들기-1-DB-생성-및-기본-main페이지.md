@@ -345,3 +345,7 @@ STATIC_URL = '/assets/'
 
 
 
+
+## [17] DB Schema 정의
+
+![1561348145033](assets/1561348145033.png)

@@ -1,6 +1,6 @@
 ---
 layout: post
-title: [Python] 텔레그램 API를 활용한 챗봇 만들기
+title: Python - 텔레그램 API를 활용한 챗봇 만들기
 category: Python
 tags: [Python, HTTPServer]
 comments: true

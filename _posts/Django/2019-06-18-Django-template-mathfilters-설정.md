@@ -6,7 +6,7 @@ tags: [django, python, python-lib]
 comments: true
 ---
 
-# [django] django template 연산 안될 때 - mathfilters 설정
+
 
 ## [1] 라이브러리 받기
 

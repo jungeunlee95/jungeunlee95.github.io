@@ -8,11 +8,13 @@ comments: true
 
 ---
 
+
+
 [전체 코드 보기](https://github.com/jungeunlee95/django-basic)
 
----
 
-# [django] Python Django 
+
+---
 
 ## **postgresql에 db 생성 및 계정 생성**
 

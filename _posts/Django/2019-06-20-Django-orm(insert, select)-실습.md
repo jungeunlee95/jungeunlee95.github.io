@@ -16,7 +16,7 @@ comments: true
 
 ---
 
-# [django] Django - orm(insert, select) 실습
+
 
 [지난 포스팅](https://jungeunlee95.github.io/django/2019/06/20/3-Django-Application-추가-작업/)에 이어서, 오늘은 기능 추가 작업
 

@@ -6,7 +6,7 @@ tags: [django, python, python-lib]
 comments: true
 ---
 
-# [django] 파이썬 웹 표준 라이브러리 정리
+---
 
 > <center>
 > <figure>

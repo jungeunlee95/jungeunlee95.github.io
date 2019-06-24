@@ -9,11 +9,15 @@ comments: true
 
 ---
 
+
+
 [전체 코드 보기](https://github.com/jungeunlee95/django-basic)
+
+
 
 ---
 
-# [django] Python Django - Application 추가 작업 
+
 
 [지난 포스팅](https://jungeunlee95.github.io/django/2019/06/19/1-Django-postgrsql-연동-시작하기/)에 이어, Application 추가 작업하기
 

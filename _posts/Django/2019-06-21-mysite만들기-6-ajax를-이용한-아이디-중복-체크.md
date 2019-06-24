@@ -24,8 +24,6 @@ comments: true
 
 ---
 
-# [django-mysite프로젝트] 6 - ajax를 이용한 아이디 중복 체크
-
 
 
 ## [1] json data 받기 연습

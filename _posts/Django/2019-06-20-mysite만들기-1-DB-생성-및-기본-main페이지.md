@@ -24,8 +24,6 @@ comments: true
 
 ---
 
-# [django-mysite프로젝트] 1 - DB 생성 및 기본 main페이지
-
 ---
 
 ## [1] db 만들기

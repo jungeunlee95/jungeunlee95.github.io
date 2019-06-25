@@ -12,11 +12,11 @@ comments: true
 
 ---
 
-[지난포스팅]([https://jungeunlee95.github.io/django/2019/06/23/mysite%EB%A7%8C%EB%93%A4%EA%B8%B0-7-%EA%B3%84%EC%B8%B5%ED%98%95-%EB%8B%B5%EA%B8%80-%EA%B2%8C%EC%8B%9C%ED%8C%90-%EA%B8%B0%EB%8A%A5-%EC%B6%94%EA%B0%80/](https://jungeunlee95.github.io/django/2019/06/23/mysite만들기-7-계층형-답글-게시판-기능-추가/))
+[지난포스팅](https://jungeunlee95.github.io/django/2019/06/23/mysite만들기-7-계층형-답글-게시판-기능-추가/)
 
 ---
 
-Django mysite를 만들면서, application이 늘어나면서
+Django project mysite의 application이 늘어나면서
 
 project의 urls.py가 복잡해졌다.
 

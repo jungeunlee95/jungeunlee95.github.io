@@ -1,12 +1,21 @@
 ---
 layout: post
-title: 5 linux에 파이썬 가상 개발 환경 구성하기(Virtual Environments)
+title: 6 리눅스에서 python 프로젝트 clone 해오기
 category: Linux
 tags: [linux, VirtualBox, centos, Xshell, Python]
 comments: true
 ---
 
 ---
+
+<center>
+<figure>
+<img src="/assets/post-img/linux/1561970278198.png" alt="views">
+<figcaption></figcaption>
+</figure>
+</center>
+
+### [이전 포스팅 보러가기]()
 
 ### ✔  2.4 리눅스에서 python 프로젝트 git clone 해오기 
 

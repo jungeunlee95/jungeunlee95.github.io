@@ -219,5 +219,4 @@ connected to - ('PostgreSQL 10.2 on x86_64-pc-linux-gnu, compiled by gcc (GCC) 4
 
 <br>
 
-### [다음 포스트 보러가기]()
-
+### [다음 포스팅 보러가기](https://jungeunlee95.github.io/linux/2019/06/30/6-리눅스에서-python-프로젝트-gitclone-해오기/)

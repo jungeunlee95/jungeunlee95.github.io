@@ -15,7 +15,7 @@ comments: true
 </figure>
 </center>
 
-### [이전 포스팅 보러가기]()
+### [이전 포스팅 보러가기](https://jungeunlee95.github.io/linux/2019/06/30/5-리눅스에-파이썬-가상-개발-환경-구성하기(Virtual-Environments)/)
 
 ### ✔  2.4 리눅스에서 python 프로젝트 git clone 해오기 
 

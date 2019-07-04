@@ -47,7 +47,50 @@ comments: true
 
 [자바스크립트 Object 이해하기 참고](<http://insanehong.kr/post/javascript-object/>)
 
-## [2] 기본 데이터 타입
+## [2] Javascript 기본 데이터 타입
+
+**✔ [특징]**
+
+- Javascript의 `class free` : class가 없어도 객체 생성이 가능하다.
+
+- 객체가 객체를 포함하기 쉬운 구조이다. (그래프, 트리, 맵 등을 쉽게 표현할  수 있다.)
+
+- 객체 하나에 있는 속성들을 다른 객체에 상속해 주는 프로토 타입 연결 특성이 있다.
+
+  > 초기화 시간 단축, 메모리 절약가능
+  >
+  > ex) 테이블 데이터가 무수히 많아지면 원페이지 처리를 어떻게 할 것인가
+
+- Object Literal -> JSON
+
+
+
+**✔ [1] Primitive Data Type (기본 자료형)**
+
+- Number
+- Boolean
+- String
+- null 
+- undefined
+
+
+
+**✔ [2]  객체**
+
+- Array
+- Date
+- Math
+- RegExp
+- Function
+- Object
+
+
+
+**✔ [3] 유사 객체** - 기본타입도 객체와 유사한 성질을 갖고있는 것
+
+- Number
+- String
+- Boolean
 
 ```js
 var number = 5;
@@ -73,17 +116,7 @@ console.log(number + number2);
 
 <br>
 
-### - javascript 내장타입
-
-- number
-- boolean
-- string
-- function
-- object
-- array - array타입은 없다.
-- etc...
-
-**자바스크립트 내장 타입 확인해보기**
+**자바스크립트 타입 확인해보기**
 
 ```js
 var n = 10;

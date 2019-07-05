@@ -45,7 +45,7 @@ nav:
     - { Django: '/blog/categories/#django' }
     - { Linux: '/blog/categories/#linux' }
     - { Python: '/blog/categories/#python' }
-    - { HTML & CSS: '/blog/categories/#htmlcss' }
+    - { HTML & CSS & Javascript: '/blog/categories/#htmlcss' }
     - { etc: '/blog/categories/#etc' }
     # - { Tags: '/blog/tags/' }
   About:

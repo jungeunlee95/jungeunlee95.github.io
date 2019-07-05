@@ -1,7 +1,7 @@
 ---
 layout: post
 title: 2 JavaScript의 프로토타입(prototype)
-category: HTML & CSS
+category: HTML & CSS & Javascript
 tags: [CSS, CSS속성]
 comments: true
 ---

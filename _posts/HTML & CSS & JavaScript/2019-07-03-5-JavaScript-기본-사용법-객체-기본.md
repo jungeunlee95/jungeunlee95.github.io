@@ -1,7 +1,7 @@
 ---
 layout: post
 title: 1 JavaScript 기본 사용법, 객체 기본
-category: HTML & CSS
+category: HTML & CSS & Javascript
 tags: [CSS, CSS속성]
 comments: true
 ---
@@ -188,7 +188,26 @@ var a2 = new Array();
 >
 > : object
 
+<br>
 
+### - 자바스크립트의 객체 분류
+
+자바스크립트 객체는 3개로 분류할 수 있다.
+
+1. Native opject (Built-in object, core object)
+
+   > - 애플리케이션의 환경과 관계없이 언제나 사용할 수 있는 애플리케이션 전역의 공통 기능을 제공한다. 
+   > - Object, String, Number, Function, Array, RegExp, Date, Math와 같은 객체 생성에 관계가 있는 함수 객체와 메소드로 구성된다.
+
+2. 호스트 객체
+
+   > - 브라우저 환경에서 객체를 말한다.
+   > - window, XmlHttpRequest, HTMLElement 등의 DOM 노드 객체와 같이 호스트 환경에 정의된 객체
+   > - 
+
+3. 사용자 정의 객체
+
+<br>
 
 ------
 

@@ -12,7 +12,6 @@ comments: true
 <figcaption></figcaption>
 </figure>
 </center>
-
 ---
 
 자바스크립트 객체는 3개로 분류할 수 있다.

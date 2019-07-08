@@ -46,6 +46,7 @@ nav:
     - { Linux: '/blog/categories/#linux' }
     - { Python: '/blog/categories/#python' }
     - { HTML & CSS & Javascript: '/blog/categories/#htmlcss' }
+    - { Java: '/blog/categories/#java' }    
     - { etc: '/blog/categories/#etc' }
     # - { Tags: '/blog/tags/' }
   About:

@@ -225,10 +225,15 @@ springSecurityFilterChain는 chain형식으로 이루어져 각각의 filter들�
 
 ### [3] WebSecurityConfigurerAdapter를 상속받은 SecurityConfig 만들기
 
+```
     [ 스프링 시큐리티 필터 연결 ]
     WebSecurity 객체는
     springSecurityFilterChain이라는 이름의 DelegatingFilterProxy Bean 객체를 생성한다.
     DelegatingFilterProxy Bean은 많은 Spring Security Filter Chain에 역할을 위임한다.
+```
+
+<br>
+
 ```java
 @Configuration
 @EnableWebSecurity

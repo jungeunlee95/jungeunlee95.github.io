@@ -9,15 +9,12 @@ comments: true
 
 ## [ 목차 ] 
 
-[TOC]
-
 <center>
 <figure>
-<img src="/assets/post-img/java/1563351435211.png" alt="views">
+<img src="/assets/post-img/java/1563436682230.png" alt="views">
 <figcaption></figcaption>
 </figure>
 </center>
-![1563436682230](assets/1563436682230.png)
 
 ---
 
@@ -42,7 +39,12 @@ role enum('ROLE_USER','ROLE_ADMIN');
 
 **수정 후 데이터**
 
-![1563435418516](assets/1563435418516.png)
+<center>
+<figure>
+<img src="/assets/post-img/java/1563435418516.png" alt="views">
+<figcaption></figcaption>
+</figure>
+</center>
 
 
 
@@ -194,7 +196,12 @@ public UserVo get(String email) {
 
 아래의 그림과 같이,
 
-![1563436112574](assets/1563436112574.png)
+<center>
+<figure>
+<img src="/assets/post-img/java/1563436863129.png" alt="views">
+<figcaption></figcaption>
+</figure>
+</center>
 
 antMatchers를 통해 `/admin/**` 경로는 `ROLE_ADMIN` 권한을 갖게 했었다. 
 
@@ -236,43 +243,40 @@ antMatchers를 통해 `/admin/**` 경로는 `ROLE_ADMIN` 권한을 갖게 했었
 
 해당 회원의 정보(name)을 가져오기 위해서는 `<sec:authentication property="name" />`를 사용하면 된다.
 
-> ![1563436518939](assets/1563436518939.png)
+> <center>
+> <figure>
+> <img src="/assets/post-img/java/1563436518939.png" alt="views">
+> <figcaption></figcaption>
+> </figure>
+> </center>
 
 하지만, 우리는 credential의 username 인증을 이메일로 했기 때문에 이메일이 뜨게된다.
 
 > UserDetails를 구현한 SecurityUser의 fields 정보
 >
-> ![1563436604014](assets/1563436604014.png)
+> <center>
+> <figure>
+> <img src="/assets/post-img/java/1563436604014.png" alt="views">
+> <figcaption></figcaption>
+> </figure>
+> </center>
 
 여기서 회원의 정보 principal의 name을 가져오기 위해서는 아래의 코드를 적으면 된다.
 
 `<sec:authentication property="principal.name" />`
 
-> ![1563436616589](assets/1563436616589.png)
+> <center>
+> <figure>
+> <img src="/assets/post-img/java/1563436616589.png" alt="views">
+> <figcaption></figcaption>
+> </figure>
+> </center>
 
 <br>
 
+<br>
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+<br>
 
 
 

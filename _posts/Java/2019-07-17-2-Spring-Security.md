@@ -356,10 +356,10 @@ protected void configure(HttpSecurity http) throws Exception {
         .antMatchers("/user/update", "/user/logout").authenticated()
         .antMatchers("/board/write", "/board/delte", "/board/modify").authenticated()
 
-        // ADMIN Authorization(ADMIN 권한, ROME_ADMIN) - 3가지 방법
-        //		.antMatchers("/admin/**").hasRole("RONE_ADMIN")
-        //		.antMatchers("/admin/**").access("hasRole('RONE_ADMIN'")
-        .antMatchers("/admin/**").hasAuthority("RONE_ADMIN")
+        // ADMIN Authorization(ADMIN 권한, ROLE_ADMIN) - 3가지 방법
+        //		.antMatchers("/admin/**").hasRole("ROLE_ADMIN")
+        //		.antMatchers("/admin/**").access("hasRole('ROLE_ADMIN'")
+        .antMatchers("/admin/**").hasAuthority("ROLE_ADMIN")
 
         // 모두 허용 ( 위에서 걸리면(url 매칭)-저기있는 URL이 아니라면, 밑으로 안내려옴 ) - 2가지 방법
         //		.antMatchers("/**").permitAll();

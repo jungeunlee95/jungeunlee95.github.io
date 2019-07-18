@@ -344,7 +344,7 @@ public void configure(WebSecurity web) throws Exception {
 
 - allow all
 
-SecurityConfig의 cofigure(HttpSecurity http){} 메소드에 설정해 주면 된다.
+`SecurityConfig`의 cofigure(HttpSecurity http){} 메소드에 설정해 주면 된다.
 
 ```java
 @Override
@@ -372,7 +372,7 @@ protected void configure(HttpSecurity http) throws Exception {
 ```java
 @Override
 protected void configure(HttpSecurity http) throws Exception {
-    http.authorizeRequests().antMatchers("/user/update", "/user/logout").authenticated().antMatchers("/board/write", "/board/delte", "/board/modify").authenticated().antMatchers("/admin/**").hasAuthority("RONE_ADMIN").anyRequest().permitAll();
+    http.authorizeRequests().antMatchers("/user/update", "/user/logout").authenticated().antMatchers("/board/write", "/board/delte", "/board/modify").authenticated().antMatchers("/admin/**").hasAuthority("ROLE_ADMIN").anyRequest().permitAll();
 }
 ```
 
@@ -402,7 +402,7 @@ protected void configure(HttpSecurity http) throws Exception {
     http.authorizeRequests()
         .antMatchers("/user/update", "/user/logout").authenticated()
         .antMatchers("/board/write", "/board/delte", "/board/modify").authenticated()
-        .antMatchers("/admin/**").hasAuthority("RONE_ADMIN")
+        .antMatchers("/admin/**").hasAuthority("ROLE_ADMIN")
         .anyRequest().permitAll();
 
     // Temporary for Testing 임시로 csrf 설정 막기

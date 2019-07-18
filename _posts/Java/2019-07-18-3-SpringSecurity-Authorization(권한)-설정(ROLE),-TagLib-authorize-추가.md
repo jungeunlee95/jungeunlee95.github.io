@@ -15,7 +15,6 @@ comments: true
 <figcaption></figcaption>
 </figure>
 </center>
-
 ---
 
 ## **Authorization(권한) 설정하기 - ROLE** 
@@ -35,6 +34,10 @@ ROLE을 아래의 형태로 받을 예정이다.
 alter table user 
 change column role 
 role enum('ROLE_USER','ROLE_ADMIN');
+
+update user set role="ROLE_USER";
+
+update user set role="ROLE_ADMIN" where name = "관리자";
 ```
 
 **수정 후 데이터**
@@ -228,6 +231,10 @@ antMatchers를 통해 `/admin/**` 경로는 `ROLE_ADMIN` 권한을 갖게 했었
 <b style="color:blue"> 로그인 회원, 비 로그인 회원 분리 </b>
 
 `<sec:authorize access="isAuthenticated()">`를 통해 인증된(로그인한) 회원이라면 회원정보 수정과 로그아웃을 보여준다. 비 로그인 회원일 경우 로그인과 회원가입 버튼을 보여준다.
+
+**taglib추가 후 코드 수정하기**
+
+`<%@ taglib prefix="sec" uri="http://www.springframework.org/security/tags" %>`
 
 ```html
 <sec:authorize access="isAuthenticated()">

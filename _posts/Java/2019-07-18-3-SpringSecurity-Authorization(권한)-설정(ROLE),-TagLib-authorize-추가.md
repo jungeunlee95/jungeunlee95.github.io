@@ -11,11 +11,17 @@ comments: true
 
 <center>
 <figure>
-<img src="/assets/post-img/java/1563436682230.png" alt="views">
+<img src="/assets/post-img/java/1563444377281.png" alt="views">
 <figcaption></figcaption>
 </figure>
 </center>
 ---
+
+<br>
+
+## [project 전체 코드 보기](https://github.com/jungeunlee95/mysite-multi-project/tree/master/mysite03)
+
+<br>
 
 ## **Authorization(권한) 설정하기 - ROLE** 
 
@@ -281,15 +287,79 @@ antMatchers를 통해 `/admin/**` 경로는 `ROLE_ADMIN` 권한을 갖게 했었
 
 <br>
 
-<br>
+### [5] jsp에 권한 제한 하기
+
+### 		- <sec:authorize access="hasRole('ROLE_ADMIN')" > 사용
+
+페이지에서 F12(개발자모드) 혹은 소스코드보기를 통해 코드를 감추고 싶을 때 taglib를 이용해 권한을 제한할 수 있다.
+
+**[1] 일단 태그라이브러리를 추가한다.**
+
+> `<%@ taglib prefix="sec" uri="http://www.springframework.org/security/tags" %>`
 
 <br>
 
+**[2] 가리고 싶은 코드를 `<sec:authorize access="hasRole('ROLE_ADMIN')" >`로 감싸준다.**
+
+<center>
+<figure>
+<img src="/assets/post-img/java/1563444104826.png" alt="views">
+<figcaption></figcaption>
+</figure>
+</center>
+
+> 소스코드 보기로 확인
+>
+> <center>
+> <figure>
+> <img src="/assets/post-img/java/1563444121693.png" alt="views">
+> <figcaption></figcaption>
+> </figure>
+> </center>
+
+<br>
+
+**[3] html 태그에도 적용이 가능하다.**
+
+- 관리자가 아닐 경우 업로드 방지를 위해 업로드 버튼을 숨긴다.
+
+<center>
+<figure>
+<img src="/assets/post-img/java/1563444234468.png" alt="views">
+<figcaption></figcaption>
+</figure>
+</center>
+
+- 해당 버튼의 url경로를 막는다.
+
+  > **SecurityConfig.java에서 설정**
+  >
+  > ```java
+  > @Override 
+  > protected void configure(HttpSecurity http) throws Exception {
+  >     
+  >     ...
+  >         
+  >     .antMatchers("/gallery/upload", "/gallery/delete/**").hasAuthority("ROLE_ADMIN")
+  > }
+  > ```
+
+<br>
+
+<b style="color:blue">권한에 따라 다르게 보이는 화면</b>
+
+<center>
+<figure>
+<img src="/assets/post-img/java/1563444253858.png" alt="views">
+<figcaption></figcaption>
+</figure>
+</center>
 
 
 
+<br>
 
-
+<br>
 
 
 

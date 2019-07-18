@@ -15,8 +15,13 @@ comments: true
 <figcaption></figcaption>
 </figure>
 </center>
-
 ---
+
+<br>
+
+## [project 전체 코드 보기](https://github.com/jungeunlee95/mysite-multi-project/tree/master/mysite03)
+
+<br>
 
 ## [1] 자동로그인 remember-me 설정
 
@@ -92,7 +97,6 @@ var params = "email=" + $('#email').val() + "&password=" + $('#password').val()
 <figcaption></figcaption>
 </figure>
 </center>
-
 ------
 
 

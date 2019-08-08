@@ -27,23 +27,6 @@ comments: true
 
 ### - 설정하기
 
-**xml 버전에서 설정하기**
-
-```xml
-<beans:bean id="rememberMeAuthenticationFilter" class="kr.co.sunnyvale.sunny.security.SunnyRememberMeAuthenticationFilter"> 
-    <beans:property name="rememberMeServices" ref="rememberMeServices"/>
-    <beans:property name="authenticationManager" ref="authenticationManager"/>
-</beans:bean>
-
-<beans:bean id="rememberMeServices" class="kr.co.sunnyvale.sunny.security.SunnyTokenBasedRememberMeServices">
-    <beans:property name="key" value="sunny" />
-    <beans:property name="userDetailsService" ref="customUserDetailsService"/>
-    <beans:property name="parameter" value="_sunny_remember_me"/>
-    <beans:property name="cookieName" value="SUNNY_REMEMBER_ME"/>
-    <beans:property name="useSecureCookie" value="true"/>
-</beans:bean>
-```
-
 <br>
 
 **config 버전에서 설정하기** : 내가 사용하는 버전
